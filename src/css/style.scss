@@ -27,8 +27,30 @@ body {
     .header {
         width: 100%;
         height: 0.45rem;
+        line-height: 0.45rem;
         background: red;
         display: flex;
+        padding: 0 0.1rem;
+        .ico-house {
+            font-size: 0.16rem;
+            color: #fff;
+        }
+        .ico-add {
+            color: #fff;
+            font-size: 0.16rem;
+            font-style: none;
+            margin: 0 0.2rem;
+        }
+        .inp {
+            flex: 1;
+            height: 0.35rem;
+            margin-top: 0.05rem;
+        }
+        .ico-my {
+            margin-left: 0.2rem;
+            color: #fff;
+            font-size: 0.16rem;
+        }
     }
     .active {
         width: 100%;
