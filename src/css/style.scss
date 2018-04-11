@@ -30,9 +30,75 @@ body {
         background: red;
         display: flex;
     }
-    .active {
+    .content {
         width: 100%;
         flex: 1;
         overflow-y: scroll;
+        .list {
+            width: 100%;
+            padding: 0 0.1rem;
+            li {
+                height: 1.5rem;
+                border-bottom: 0.01rem solid #ccc;
+                display: flex;
+                padding: 0.2rem 0;
+                .left-img {
+                    width: 30%;
+                    height: 100%;
+                    background: yellow;
+                    text-align: center;
+                    line-height: 1rem;
+                }
+                .right-msg {
+                    flex: 1;
+                    margin-left: 0.1rem;
+                    h1 {
+                        font-size: 0.18rem;
+                        color: #666;
+                        // height: 0.3rem;
+                        // line-height: 0.3rem;
+                    }
+                    h2 {
+                        font-size: 0.18rem;
+                        color: red;
+                        height: 0.3rem;
+                        line-height: 0.3rem;
+                        span {
+                            display: inline-block;
+                            height: 0.2rem;
+                            line-height: 0.2rem;
+                            margin-top: 0.012rem;
+                            font-size: 0.14rem;
+                            background: rgb(255, 154, 154);
+                            color: #fff;
+                        }
+                    }
+                    h3 {
+                        font-size: 0.14rem;
+                        color: rgb(209, 209, 209);
+                        height: 0.15rem;
+                        line-height: 0.15rem;
+                    }
+                    h4 {
+                        font-size: 0.14rem;
+                        color: rgb(209, 209, 209);
+                        height: 0.15rem;
+                        line-height: 0.15rem;
+                    }
+                    h5 {
+                        display: flex;
+                        height: 0.25rem;
+                        margin-top: 0.02rem;
+                        span {
+                            padding: 0.02rem;
+                            line-height: 0.25rem;
+                            display: block;
+                            background: rgb(222, 222, 252);
+                            margin-right: 0.1rem;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

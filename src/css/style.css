@@ -33,8 +33,83 @@ body {
   display: flex;
 }
 
-.wrap .active {
+.wrap .content {
   width: 100%;
   flex: 1;
   overflow-y: scroll;
+}
+
+.wrap .content .list {
+  width: 100%;
+  padding: 0 0.1rem;
+}
+
+.wrap .content .list li {
+  height: 1.5rem;
+  border-bottom: 0.01rem solid #ccc;
+  display: flex;
+  padding: 0.2rem 0;
+}
+
+.wrap .content .list li .left-img {
+  width: 30%;
+  height: 100%;
+  background: yellow;
+  text-align: center;
+  line-height: 1rem;
+}
+
+.wrap .content .list li .right-msg {
+  flex: 1;
+  margin-left: 0.1rem;
+}
+
+.wrap .content .list li .right-msg h1 {
+  font-size: 0.18rem;
+  color: #666;
+}
+
+.wrap .content .list li .right-msg h2 {
+  font-size: 0.18rem;
+  color: red;
+  height: 0.3rem;
+  line-height: 0.3rem;
+}
+
+.wrap .content .list li .right-msg h2 span {
+  display: inline-block;
+  height: 0.2rem;
+  line-height: 0.2rem;
+  margin-top: 0.012rem;
+  font-size: 0.14rem;
+  background: #ff9a9a;
+  color: #fff;
+}
+
+.wrap .content .list li .right-msg h3 {
+  font-size: 0.14rem;
+  color: #d1d1d1;
+  height: 0.15rem;
+  line-height: 0.15rem;
+}
+
+.wrap .content .list li .right-msg h4 {
+  font-size: 0.14rem;
+  color: #d1d1d1;
+  height: 0.15rem;
+  line-height: 0.15rem;
+}
+
+.wrap .content .list li .right-msg h5 {
+  display: flex;
+  height: 0.25rem;
+  margin-top: 0.02rem;
+}
+
+.wrap .content .list li .right-msg h5 span {
+  padding: 0.02rem;
+  line-height: 0.25rem;
+  display: block;
+  background: #dedefc;
+  margin-right: 0.1rem;
 }
